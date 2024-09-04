@@ -1,0 +1,60 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+/* .home-container{
+    padding-top: 20px;
+} */
+
+.slider-img{
+    filter: blur(2px);
+    height: 35rem;
+}
+.card{
+    transition: transform 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+    border: none;
+    border-radius: 8px;
+}
+
+.card img{
+    border-radius: 8px 8px 0 0;
+
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 40px rgba(0,0,0,0.1);
+}
+
+.card-title{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    font-size: 1rem;
+    color:rgb(91, 88, 88);
+}
+
+.section{
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.section h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p{
+    font-size: 1.25rem;
+    color: #5f676e;
+    margin-bottom: 20px;
+}
+
+.section .btn-success{
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
